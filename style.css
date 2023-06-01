@@ -26,9 +26,14 @@
     padding: 3px;
 }
 
-ul li:hover {
+.links li a {
+    font-size: large;
+    font-weight: 500;
+}
 
-    background-color: rgb(33 59 68);
+.links li:hover {
+
+    background-color: rgb(92, 130, 143);
     border-radius: 5px;
 }
 
@@ -60,6 +65,8 @@ ul li:hover {
 }
 
 .text {
+
+    font-weight: bold;
     color: white;
     position: relative;
     animation: mymove 5s;
@@ -102,6 +109,13 @@ ul li:hover {
     text-size-adjust: 30px;
 }
 
+.help li:hover {
+    width: max-content;
+    background-color: rgb(92, 130, 143);
+    border-radius: 5px;
+}
+
+
 .contactus {
 
     padding: 30px;
@@ -125,6 +139,12 @@ ul li:hover {
     margin-bottom: 15px;
     border: 2px;
     text-size-adjust: 30px;
+}
+
+.contactus li:hover {
+    width: max-content;
+    background-color: rgb(92, 130, 143);
+    border-radius: 5px;
 }
 
 .quick {
@@ -152,6 +172,12 @@ ul li:hover {
     text-size-adjust: 30px;
 }
 
+.quick li:hover {
+    width: max-content;
+    background-color: rgb(92, 130, 143);
+    border-radius: 5px;
+}
+
 .social {
 
     padding: 30px;
@@ -170,12 +196,17 @@ ul li:hover {
 }
 
 .social li img {
-    font-size: 16px;
-    line-height: 1;
+
+    line-height: 2;
     color: white;
-    margin-bottom: 15px;
-    border: 2px;
-    text-size-adjust: 30px;
+    padding-bottom: 10px;
+}
+
+.social li:hover {
+
+    width: max-content;
+    background-color: rgb(92, 130, 143);
+    border-radius: 5px;
 }
 
 
@@ -194,6 +225,22 @@ ul li:hover {
 
 }
 
+.service ul li a:hover {
+    background-color: rgb(245, 245, 104);
+    border-radius: 5px;
+
+
+}
+
+.service li a {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family: cursive;
+    font-weight: bold;
+}
+
 .service ul {
     margin-top: 60px;
     display: flex;
@@ -203,7 +250,6 @@ ul li:hover {
     align-items: center;
     margin-bottom: 10px;
     padding-bottom: 70px;
-
 }
 
 .about {
@@ -213,17 +259,19 @@ ul li:hover {
 }
 
 .img1 {
-    margin-left: 10px;
-    margin-bottom: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
     display: flex;
     width: 150px;
     height: 400px;
 }
 
 .content {
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-    margin-top: 70px;
+    /* box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; */
+    margin-top: 135px;
     width: 50%;
+    margin-right: 30px;
     margin-left: 500px;
     margin-bottom: 90px;
     padding-left: 10px;
