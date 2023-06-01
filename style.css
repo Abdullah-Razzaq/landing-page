@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(19, 19, 37);
+    width: 100%;
+    height: 100px;
+}
+
+.links {
+    display: flex;
+    width: 400px;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links li {
+    margin-top: 33px;
+    padding: 3px;
+}
+
+ul li:hover {
+
+    background-color: rgb(33 59 68);
+    border-radius: 5px;
+}
+
+
+.links li a {
+    text-decoration: none;
+    color: white;
+}
+
+.mainpage {
+    position: absolute;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("./images/wp9037617-minimalist-4k-italy-wallpapers.jpg");
+    background-position: cover;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+.logo {
+
+    color: white;
+    font-family: 'Rubik Puddles', cursive;
+    font-weight: bold;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.text {
+    color: white;
+    position: relative;
+    animation: mymove 5s;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 140px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+}
+
+.help {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.help h3 {
+    margin-left: 30px;
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.help ul {
+    list-style: none;
+    margin-left: 30px;
+}
+
+.help li a {
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+.contactus {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.contactus h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.contactus ul {
+    list-style: none;
+}
+
+.contactus li a {
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+.quick {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.quick h3 {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.quick ul {
+    list-style: none;
+}
+
+.quick li a {
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+.social {
+
+    padding: 30px;
+    width: 25%;
+}
+
+.social h3 {
+
+    font-size: 24px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social li img {
+    font-size: 16px;
+    line-height: 1;
+    color: white;
+    margin-bottom: 15px;
+    border: 2px;
+    text-size-adjust: 30px;
+}
+
+
+.copyright {
+    color: white;
+    margin-left: 75%;
+}
+
+.service {
+    background-color: aliceblue;
+    font-size: x-large;
+    margin-top: 700px;
+    color: black;
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+.service ul {
+    margin-top: 60px;
+    display: flex;
+    width: 100%;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 10px;
+    padding-bottom: 70px;
+
+}
+
+.about {
+    background-color: white;
+    display: flex;
+    width: 100%;
+}
+
+.img1 {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    width: 150px;
+    height: 400px;
+}
+
+.content {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    margin-top: 70px;
+    width: 50%;
+    margin-left: 500px;
+    margin-bottom: 90px;
+    padding-left: 10px;
+}
+
+.para {
+    text-align: center;
+
+}
+
+.footer {
+
+    background-color: rgb(30, 30, 66);
+    width: 100%;
+}
+
+@keyframes mymove {
+    from {
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(1)
+    }
+}
